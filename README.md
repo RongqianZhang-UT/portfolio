@@ -1,8 +1,8 @@
-# Data Scientist
+# PhD candidate in Statistics
 
-#### Technical Skills: Python, SQL, AWS, Snowflake, MATLAB
+#### Research interests: High-dimensional data analysis | Imaging | Spatial statistics | Neuroscience | Deep learning
 
 ## Education
-- Ph.D., Physics | The University of Texas at Dallas (_May 2022_)								       		
-- M.S., Physics	| The University of Texas at Dallas (_December 2019_)	 			        		
-- B.S., Physics | The University of Texas at Dallas (_May 2017_)
+- Ph.D., Statistics | University of Toronto (_Expected in 2025_)								       		
+- M.S., Applied Statistics	| University of Michigan, Ann Arbor (_January 2021_)	 			        		
+- B.E., Economic Statistics | Renmin University of China (_June 2019_)
