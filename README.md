@@ -2,7 +2,7 @@
 
 ## Research interests
 - Statistical methodologies: High-dimensional data analysis, spatial statistics, deep learning
-- Scientific applications: Imaging, Neuroscience, data harmonization
+- Scientific applications: Imaging, neuroscience, data harmonization
   
 ## Education
 - Ph.D., Statistics | University of Toronto (_Expected in 2025_)             		
@@ -17,3 +17,6 @@
   reducing unwanted variations in covariances, enhancing data quality and reproducibility. 
 - This work marked a pioneering effort in methodological research, introducing spatial modelling to tackle inter-scanner biases and ultimately providing more 
   reliable data for downstream analyses.
+
+### A Structured Multivariate Approach for Removing Latent Inter-Scanner Effects
+[Publication](https://direct.mit.edu/imag/article/doi/10.1162/imag_a_00011/116599/RELIEF-A-structured-multivariate-approach-for)
