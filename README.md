@@ -30,6 +30,7 @@
 - Conducted both practical applications and simulation studies to compare against existing approaches (Elastic Net, Fused Lasso, etc.), demonstrating higher prediction accuracy and comparable specificity and sensitivity in variable selection.
 
 ### fMRI Data Reconstruction, Visualization and Predictive Analytics
+[Publication](https://link.springer.com/article/10.1007/s00521-021-06789-8)
 - Registered fMRI 3D volume to brain Atlas to segment the fMRI anatomy into distinct regions.
 - Identified active ROI candidates by using Temporal Contrast-to-noise Ratio (tCNR) for t-tests, applied tensor regression to detect activated brain areas within these candidates, and used post hoc statistical mapping filtering to localize the task-activated regions.
 - Co-developed an efficient [R package (TCIU)](https://github.com/SOCR/TCIU) and built a GitHub repository for sharing simulated examples and codes publicly.
@@ -51,10 +52,12 @@
 
 ## Presentations 
 _Talks_
+
 2023 Joint Statistical Meetings (JSM) 
 2022 Statistical Methods in Imaging (SMI) conference
 
 _Poster_
+
 2023 Statistical Methods in Imaging (SMI) conference
 2023 Eastern North American Region (ENAR) meeting
 
