@@ -54,11 +54,13 @@
 _Talks_
 
 2023 Joint Statistical Meetings (JSM) 
+
 2022 Statistical Methods in Imaging (SMI) conference
 
 _Poster_
 
 2023 Statistical Methods in Imaging (SMI) conference
+
 2023 Eastern North American Region (ENAR) meeting
 
 ## Skills
