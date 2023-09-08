@@ -1,8 +1,8 @@
 # PhD candidate in Statistics
 
 ## Research interests
-- Statistical methodologies: High-dimensional data analysis, spatial statistics, deep learning
-- Scientific applications: Imaging, neuroscience, data harmonization
+- **Statistical methodologies**: High-dimensional data analysis, spatial statistics, deep learning
+- **Scientific applications**: Imaging, neuroscience, data harmonization
   
 ## Education
 - Ph.D., Statistics @ University of Toronto (_Expected in 2025_)             		
