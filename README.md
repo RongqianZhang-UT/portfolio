@@ -5,9 +5,9 @@
 - Scientific applications: Imaging, neuroscience, data harmonization
   
 ## Education
-- Ph.D., Statistics | University of Toronto (_Expected in 2025_)             		
-- M.S., Applied Statistics | University of Michigan (_January 2021_)	 			        		
-- B.E., Economic Statistics | Renmin University of China (_June 2019_)
+- Ph.D., Statistics @ University of Toronto (_Expected in 2025_)             		
+- M.S., Applied Statistics @ University of Michigan, Ann Arbor (_January 2021_)	 			        		
+- B.E., Economic Statistics @ Renmin University of China (_June 2019_)
 
 ## Research Experience
 ### Mitigating Inter-Scanner Biases in High-Dimensional Neuroimaging Data
