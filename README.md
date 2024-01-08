@@ -10,13 +10,15 @@
 - B.E., Economic Statistics @ Renmin University of China (_June 2019_)
 
 ## Research Experience
-### Mitigating Inter-Scanner Biases in High-Dimensional Neuroimaging Data
+### SAN: mitigating spatial covariance heterogeneity in cortical thickness data collected from multiple scanners or sites
+[Publication](https://www.biorxiv.org/content/10.1101/2023.12.04.569619v1)
 - Developed the Spatial Autocorrelation Normalization (SAN) technique, a method to ensure that neuroimaging data remains consistent across different study sites and 
   MRI scanners by mitigating unwanted technical variations at the vertex level (high dimensions).
 - Conducted both real data analysis and simulation studies, comparing our new method with existing methods. Our approach demonstrated substantial improvements in 
   reducing unwanted variations in covariances, enhancing data quality and reproducibility. 
 - This work marked a pioneering effort in methodological research, introducing spatial modelling to tackle inter-scanner biases and ultimately providing more 
   reliable data for downstream analyses.
+- Developed an efficient [R package (SAN)](https://github.com/junjypark/SAN) and built a GitHub repository for sharing simulated examples and codes publicly.
 
 ### A Structured Multivariate Approach for Removing Latent Inter-Scanner Effects
 [Publication](https://direct.mit.edu/imag/article/doi/10.1162/imag_a_00011/116599/RELIEF-A-structured-multivariate-approach-for)
