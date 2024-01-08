@@ -74,6 +74,4 @@ _Poster_
 ## Publications
 1. **Zhang, R.**, Oliver, L. D., Voineskos, A. N., & Park, J. Y. (2023). RELIEF: A structured multivariate approach for removal of latent inter-scanner effects. Imaging Neuroscience 2023; 1 1–16. doi: https://doi.org/10.1162/imag_a_00011
 2. **Zhang, R.**, Zhang, Y., Liu, Y., Guo, Y., Shen, Y., Deng, D., ... & Dinov, I. D. (2022). Kimesurface Representation and Tensor Linear Modeling of Longitudinal Data, Neural Computing and Applications Journal, DOI: 10.1007/s00521-021-06789-8
-
-
-
+3. **Zhang, R.**, et al. "SAN: mitigating spatial covariance heterogeneity in cortical thickness data collected from multiple scanners or sites." bioRxiv (2023): 2023-12.doi: 2023.12.04.569619
