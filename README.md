@@ -1,7 +1,7 @@
 # PhD candidate in Statistics
 
 ## Research interests
-- **Statistical methodologies**: High-dimensional data analysis, spatial statistics, deep learning
+- **Statistical methodologies**: High-dimensional data analysis, spatial statistics, machine learning
 - **Scientific applications**: Imaging, neuroscience, data harmonization
   
 ## Education
@@ -10,31 +10,29 @@
 - B.E., Economic Statistics @ Renmin University of China (_June 2019_)
 
 ## Research Experience
-### SAN: mitigating spatial covariance heterogeneity in cortical thickness data collected from multiple scanners or sites
-[Publication](https://www.biorxiv.org/content/10.1101/2023.12.04.569619v1)
-- Developed the Spatial Autocorrelation Normalization (SAN) technique, a method to ensure that neuroimaging data remains consistent across different study sites and 
-  MRI scanners by mitigating unwanted technical variations at the vertex level (high dimensions).
-- Conducted both real data analysis and simulation studies, comparing our new method with existing methods. Our approach demonstrated substantial improvements in 
-  reducing unwanted variations in covariances, enhancing data quality and reproducibility. 
-- This work marked a pioneering effort in methodological research, introducing spatial modelling to tackle inter-scanner biases and ultimately providing more 
-  reliable data for downstream analyses.
-- Developed an efficient [R package (SAN)](https://github.com/junjypark/SAN) and built a GitHub repository for sharing simulated examples and codes publicly.
+### Harmonizing Functional Connectivity Data Collected from Multiple Scanners/Sites
+- Developed a sparse tensor decomposition method for localizing and mitigating inter-scanner/-site variability in functional connectivity, while preserving functional activity patterns after harmonization.
+- Proposed an enhanced EM algorithm for estimation.
+
+### SAN: Mitigating Spatial Covariance Heterogeneity in Cortical Thickness Data Collected from Multiple Scanners or Sites
+[Publication](https://onlinelibrary.wiley.com/doi/full/10.1002/hbm.26692)
+- Developed the Spatial Autocorrelation Normalization (SAN) technique to ensure spatially homogeneous neuroimaging data across different sites and MRI scanners by reducing unwanted technical variations at the vertex level.
+- Demonstrated through real data and simulations that SAN outperforms existing methods in reducing covariance variations, improving data quality and reproducibility.
+- Developed an efficient [R package (SAN)](https://github.com/junjypark/SAN) to share simulated examples and codes.
 
 ### A Structured Multivariate Approach for Removing Latent Inter-Scanner Effects
 [Publication](https://direct.mit.edu/imag/article/doi/10.1162/imag_a_00011/116599/RELIEF-A-structured-multivariate-approach-for)
-- Developed a multivariate approach called RELIEF (REmoval of Latent Inter-scanner Effects through Factorization) for correcting unwanted scanner-related artifacts to improve the quality of brain imaging studies that involve multiple scanners or sites.
-- Introduced this groundbreaking method that simultaneously reduces dimensions and factors interlinked matrices in the context of data harmonization. It provides a new direction in methodological research for correcting inter-scanner biases while preserving biological associations of interest, thereby significantly increasing statistical power compared to existing methods.
+- Developed RELIEF (REmoval of Latent Inter-scanner Effects through Factorization), a novel method that reduces dimensions and factors interlinked matrices, correcting inter-scanner biases while preserving biological associations, and significantly increasing statistical power compared to existing methods.
 - Developed an efficient [R package (RELIEF)](https://github.com/junjypark/RELIEF/tree/master) and built a GitHub repository for sharing simulated examples and codes publicly.
 
 ### Scalar on Image Deep Neural Network
-- Proposed an innovative regulaized Neural Network model tailored for solving Scalar on Image problems. This model incorporates Total Variation penalties and L-1 penalties to effectively recover sparsity spatial patterns in nonlinear systems.
-- Developed a scalable algorithm for efficiently estimating the model's parameters. Additionally, I established a generalized framework, enabling prediction and variable selection across a wide range of data types, including continuous, binary, and multi-categorical variables.
-- Conducted both practical applications and simulation studies to compare against existing approaches (Elastic Net, Fused Lasso, etc.), demonstrating higher prediction accuracy and comparable specificity and sensitivity in variable selection.
+- Proposed a regularized Neural Network model for Scalar on Image problems, incorporating Total Variation and L-1 penalties to recover sparse spatial patterns in nonlinear systems.
+- Developed a scalable algorithm for efficient parameter estimation and established a generalized framework for prediction and variable selection across various data types, including continuous, binary, and multi-categorical variables.
 
 ### fMRI Data Reconstruction, Visualization and Predictive Analytics
 [Publication](https://link.springer.com/article/10.1007/s00521-021-06789-8)
 - Registered fMRI 3D volume to brain Atlas to segment the fMRI anatomy into distinct regions.
-- Identified active ROI candidates by using Temporal Contrast-to-noise Ratio (tCNR) for t-tests, applied tensor regression to detect activated brain areas within these candidates, and used post hoc statistical mapping filtering to localize the task-activated regions.
+- Identified active ROIs using Temporal Contrast-to-noise Ratio (tCNR), applied tensor regression to detect activation, and localized task-activated regions with post hoc statistical mapping.
 - Co-developed an efficient [R package (TCIU)](https://github.com/SOCR/TCIU) and built a GitHub repository for sharing simulated examples and codes publicly.
 
 ## Work Experience
@@ -65,6 +63,8 @@ _Poster_
 
 2023 Eastern North American Region (ENAR) meeting
 
+2024 Eastern North American Region (ENAR) meeting
+
 ## Skills
 - Languages: R, Python, STAN
 - Training Framework: TensorFlow, Keras, Scikit-Learn
@@ -72,6 +72,8 @@ _Poster_
 - Tools: Linux, git, ggplot2
 
 ## Publications
-1. **Zhang, R.**, Oliver, L. D., Voineskos, A. N., & Park, J. Y. (2023). RELIEF: A structured multivariate approach for removal of latent inter-scanner effects. Imaging Neuroscience 2023; 1 1–16. doi: https://doi.org/10.1162/imag_a_00011
-2. **Zhang, R.**, Zhang, Y., Liu, Y., Guo, Y., Shen, Y., Deng, D., ... & Dinov, I. D. (2022). Kimesurface Representation and Tensor Linear Modeling of Longitudinal Data, Neural Computing and Applications Journal, DOI: 10.1007/s00521-021-06789-8
-3. **Zhang, R.**, et al. "SAN: mitigating spatial covariance heterogeneity in cortical thickness data collected from multiple scanners or sites." bioRxiv (2023): 2023-12.doi: 2023.12.04.569619
+1. Weinstein, S.M., Tu, D., Hu, F., Pan, R., **Zhang, R.**, Vandekar, S.N., Baller, E.B., Gur, R.C., Gur, R.E., Alexander-Bloch, A.F. and Satterthwaite, T.D., 2024. Mapping individual differences in intermodal coupling in neurodevelopment. bioRxiv, pp.2024-06.
+2. **Zhang, R.**, Chen, L., Oliver, L.D., Voineskos, A.N. and Park, J.Y., 2024. SAN: mitigating spatial covariance heterogeneity in cortical thickness data collected from multiple scanners or sites. Human Brain Mapping, 45(7), p.e26692.
+3. **Zhang, R.**, Oliver, L.D., Voineskos, A.N. and Park, J.Y., 2023. RELIEF: A structured multivariate approach for removal of latent inter-scanner effects. Imaging Neuroscience, 1, pp.1-16.
+4. Zhang, Y., Shen, Y., **Zhang, R.**, Liu, Y., Guo, Y., Deng, D. and Dinov, I.D., 2023. Numerical methods for computing the discrete and continuous Laplace transforms. arXiv preprint arXiv:2304.13204.
+5. **Zhang, R.**, Zhang, Y., Liu, Y., Guo, Y., Shen, Y., Deng, D., Qiu, Y.J. and Dinov, I.D., 2022. Kimesurface representation and tensor linear modeling of longitudinal data. Neural Computing and Applications, pp.1-20.
